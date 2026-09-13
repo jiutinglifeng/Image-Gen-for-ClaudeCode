@@ -1,4 +1,7 @@
 # imagegen — Claude Code 多模型生图 Skill
+痛点：CodeX 和 Workbuddy都有属于自己的 imagegen 技能，能使得用户在构建项目的时候直接调用自身的生图模型来制作图片并放进项目中，但 Claude Code 没有生图能力！于是我制作了这个 skill 来解决这个痛点。
+
+我借鉴了 CodeX 官方的 imagegen 技能的设计防范，并使用 Claude Code 构建了这个 skill。
 
 在用 Claude Code 构建 web 项目时，直接生成图片素材(hero 图、图标、插画、配图等)并保存到项目目录，供代码直接引用。通过一个 AI 中转站调用 gpt-image-2 / 豆包 Seedream / Gemini 三个生图模型，不用分别注册每一家官方账号。
 
