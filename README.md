@@ -3,7 +3,7 @@
 
 我借鉴了 CodeX 官方的 imagegen 技能的设计方法，并使用 Claude Code 构建了这个 skill。
 
-在用 Claude Code 构建 web 项目时，直接生成图片素材(hero 图、图标、插画、配图等)并保存到项目目录，供代码直接引用。通过一个 AI 中转站调用 gpt-image-2 / 豆包 Seedream / Gemini 三个生图模型，不用分别注册每一家官方账号。
+在用 Claude Code （或其他没有自主生图能力的模型和 agent 工具的时候）构建 web 项目时，直接生成图片素材(hero 图、图标、插画、配图等)并保存到项目目录，供代码直接引用。通过一个 AI 中转站调用 gpt-image-2 / 豆包 Seedream / Gemini 三个生图模型，不用分别注册每一家官方账号。
 
 ## 功能
 
