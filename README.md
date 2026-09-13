@@ -1,5 +1,5 @@
 # imagegen — Claude Code 多模型生图 Skill
-痛点：CodeX 和 Workbuddy都有属于自己的 imagegen 技能，能使得用户在构建项目的时候直接调用自身的生图模型来制作图片并放进项目中，但 Claude Code 没有生图能力！于是我制作了这个 skill 来解决这个痛点。
+痛点：CodeX 和 Workbuddy都有属于自己的 imagegen 技能，能使得用户在构建项目的时候直接调用自身的生图模型来制作图片并放进项目中，但 Claude 模型本身没有生图能力！于是我制作了这个 skill 来解决这个痛点。
 
 我借鉴了 CodeX 官方的 imagegen 技能的设计防范，并使用 Claude Code 构建了这个 skill。
 
